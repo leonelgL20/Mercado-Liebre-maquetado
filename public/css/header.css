@@ -8,34 +8,66 @@
     margin: auto;
     border-radius: 5px 5px 5px 5px;
    cursor: pointer;
-   margin-bottom: 18px ;
+   margin-top: 25px;
+   font-size: 20px;
 }
 
 
-.header a {
-    color: black;
+header a {
+ color: black ;
+ 
+}
+
+header p {
+text-align: center;
+margin-top: 10px;
 }
 
 
+header{
+    width: 100%;
+    background-color: #EAC926;
+    padding: 20px;
+      
+}
+
+.imagen{
    
-   
+    width: 40%;
     
 }
-
-.main__section h2 {
-    margin-bottom: 20px;
-    margin-top: 20px;
+header nav{
+display: none;
 }
 
+@media (min-width:361px){
+   header nav {
+    display: flex;
+    
+    
+   } 
+   header p {
+    margin-bottom: 4%;
+   }
 
-.header{
-    margin: 5px;
+   .burger-menu button{
+    display: none;
+   }
+
 }
 
-#banner{
-    width: 100%;
-}
-
-.main div img{
-    width: 100%;
+@media(min-width:769px){
+    header nav {
+        display: flex;
+        
+        
+       } 
+       header p {
+        margin-bottom: 4%;
+       }
+    
+       .burger-menu button{
+        display: none;
+       }
+    
 }
