@@ -1,4 +1,10 @@
-
+header{
+    width: 100%;
+    background-color: #EAC926;
+    padding: 20px;
+    align-items: center;
+      
+}
 .burger-menu button{
     display: flex;
     color: white;
@@ -18,56 +24,165 @@ header a {
  
 }
 
-header p {
-text-align: center;
-margin-top: 10px;
-}
 
 
-header{
-    width: 100%;
-    background-color: #EAC926;
-    padding: 20px;
-      
-}
 
-.imagen{
-   
-    width: 40%;
-    
-}
+
+
 header nav{
 display: none;
 }
 
-@media (min-width:361px){
-   header nav {
+
+
+
+  header section{
     display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding-bottom: 5px ;
+    margin: auto;
+  }
+
+input{
+  padding: 8px;
+  border-radius: 5px 0 0 5px;
+  border:0;
+  outline: none;
+  margin-top: 10px;
+  width: 89%;
+  font-size: 0.7rem;
+}
+
+  .busqueda {
+width: 46%;
+position: relative;
+align-items: center;
+
+
+
+    }
+ 
+    .button__lupa{
+      background-color: #ffffff;
+      padding: 7px 3px;
+      position: absolute;
+      border: 0;
+      top: 0;
+      margin: auto;
+      border-radius: 0 5px 5px 0;
+      
+
+    }
+
+
+    .button__lupa i{
+      font-size: 0.7rem;
+    }
+  .imagen{
+    width: 50%;
+  }
     
-    
-   } 
+header p{
+  font-size: 0.8rem;
+  padding-top: 15px;
+margin: auto;
+  
+
+ 
+
+}
+
+
+
+
+
+
+@media (min-width:361px){
+ 
    header p {
-    margin-bottom: 4%;
+   font-size: 0.8rem;
+    display: flex;
+   
+    margin:0;
+   
+    
+    
    }
 
    .burger-menu button{
     display: none;
    }
 
+   header nav{
+  display: flex;
+  justify-content: space-between;
+ 
+} 
+
+  
+   
+.busqueda {
+  width: 20%;
+ 
 }
 
+
+header nav ul{
+  display: flex;
+  flex-direction:row ;
+  gap: 20px;
+  
+}
+.nav__vender ul{
+flex-direction: row;
+display: flex;
+
+}
+
+.imagen{
+  width: 25%;
+}
+
+header nav ul li{
+  font-size: 0.9rem;
+}
+.section__input{
+  gap: 20px;
+ 
+  
+  padding-bottom: 50px;
+}
+
+.section__input{
+
+  justify-content: space-between;
+
+}
+
+}
 @media(min-width:769px){
     header nav {
         display: flex;
         
         
        } 
-       header p {
-        margin-bottom: 4%;
-       }
+     
     
        .burger-menu button{
         display: none;
        }
-    
-}
+       header nav ul li{
+        font-size: 1rem;
+      }
+      header p {
+        font-size: 1rem;
+         display: flex;
+        
+        
+        }
+        .imagen{
+          width: 20%;
+      }
+      }
