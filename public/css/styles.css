@@ -3,4 +3,8 @@
 @import './header.css';
 @import './normalize.css';
 @import './home.css';
+@import'./form.css';
+@import'./register.css';
+@import'./button.css';
+
 

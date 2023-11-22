@@ -14,6 +14,7 @@ li {
 
 a{
     text-decoration: none;
+   
 }
 
 
@@ -32,4 +33,54 @@ body h2{
 }
 
 
+/*register*/
 
+.main__register--section{
+    
+    width: 90%;
+    margin: 50px auto;
+  padding: 20px;
+    
+   
+    border-radius: 5px;
+}
+
+
+@media (min-width:768px){
+  
+    .main__register--section{
+        width: 40%;
+       
+    }
+    }
+
+
+
+/*login*/
+
+.iniciar__sesion{
+    width: 90%;
+    margin: 50px auto;
+   
+   
+    padding: 20px ;
+    border-radius: 5px;
+}
+
+
+.login__email{
+    margin-bottom: 20px;
+}
+
+
+.login__contraseña{
+    margin-bottom: 60px;
+}
+
+@media (min-width:768px){
+  
+.iniciar__sesion{
+    width: 50%;
+   
+}
+}

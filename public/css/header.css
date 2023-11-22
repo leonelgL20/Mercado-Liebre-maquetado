@@ -39,26 +39,26 @@ display: none;
   header section{
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    
     flex-wrap: wrap;
     padding-bottom: 5px ;
     margin: auto;
   }
 
-input{
+.busqueda input{
   padding: 8px;
   border-radius: 5px 0 0 5px;
   border:0;
   outline: none;
-  margin-top: 10px;
+ 
   width: 89%;
   font-size: 0.7rem;
 }
 
   .busqueda {
-width: 46%;
+width: 50%;
 position: relative;
-align-items: center;
+
 
 
 
